@@ -35,6 +35,26 @@ countB++;
 <!-- 演習 -->
 <p><% out.println(Math.random()); %></p>
 <p><%= Math.random() %></p>
+<br>
+<!-- 演習 -->
+<p>お名前を入力して下さい。</p>
+<form method = "post" action = "greeting-out.jsp">
+<input type = "text" name = "user">
+<input type = "submit" value = "確定">
+</form>
+<Br>
+<!-- 演習 -->
+<form method = "post" action = "total-out.jsp">
+<input type = "text" name = "price">
+円 x
+<input type = "text" name = "count">
+個 + 送料
+<input type = "text" name = "delivery">
+円 =
+<input type = "submit" value = "計算">
+</form>
+<br>
+
 
 </body>
 </html>
